@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo list</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="title ">Things I need to get my hands on</div>
+<div class="mytodo">
+	<div class="all-tasks">
+		<h2 class="task-list-title">My lists</h2>
+		<ul class="task-lists">
+			<li class="list-name
+			 active-lists">Javascript</li>
+			<li class="list-name">Todo Web App UI</li>
+			<li class="list-name">Login Form</li>
+		</ul>
+		<form >
+			<input type="text"
+			class="new list"
+			placeholder="new list name"
+			aria-label="new list name"/>
+			<button class="btn create" aria-label="create new list">+</button>
+		</form>
+	</div>
+	
+	<div class="todo-list">
+		<div class="todo-header">
+			<h2 class="list-title">Todo Web App</h2>
+			<p class="task-count"><span class="pendingTasks">no</span> more tasks remaining</p>
+		</div>
+		<div class="todo-body">
+			<div class="tasks todo-list">
+					<!-- <div class="task">
+						<input type="checkbox" id="task-1"/>
+						<label for="task-1">
+							<span class="custom-checkbox"></span>
+							Add 
+						</label>
+					</div> -->
+					<!--close task-1-->
+	
+					<!-- <div class="task">
+							<input type="checkbox" id="task-2"/>
+							<label for="task-2">
+								<span class="custom-checkbox"></span>
+								Another task
+							</label>
+						</div> --> 
+						<!--close task-2
+	
+						<div class="task">
+								<input type="checkbox" id="task-3"/>
+								<label for="task-3">
+									<span class="custom-checkbox"></span>
+									A third task
+								</label>
+							</div> -->
+							<!--close task-3	 -->
+			</div> 
+			<div class="new-task-creator">
+					<!-- <form action=""> -->
+							<input type="text"
+							class="new task"
+							placeholder="new task name"
+							aria-label="new task name"/>
+							<button class="btn create" aria-label="create new task">+</button>
+						<!-- </form> -->
+						<ul class="todo-list1"></ul>
+
+			</div>
+			<div class="delete-things">
+				<button class="btn clear">Clear completed tasks</button>
+				<button class="btn delete">Delete list</button>
+	
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script src="todo.js"></script>
+</body>
+</html>
+
